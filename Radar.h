@@ -164,8 +164,20 @@ private:
     //-----------------------------------------------------
     void drawRange(QPainter *painter, int x, int y, int range, int range1);
 
+    //----------------------------------------------------
+    //  函数名称：drawPoints
+    //  作用：绘制目标
+    //  参数：参数一：QPainter对象，类型：QPainter
+    //        参数二：目标的坐标
+    //-----------------------------------------------------
     void drawPoints(QPainter* painter, QVector<QPoint> &Record);
 
+    //----------------------------------------------------
+    //  函数名称：drawTarget
+    //  作用：绘制目标
+    //  参数：参数一：QPainter对象，类型：QPainter
+    //        参数二：目标的信息
+    //-----------------------------------------------------
     void drawTarget(QPainter* painter, TargetInfo ti);
 
 private:
